@@ -1,0 +1,211 @@
+/* INICIO */
+
+.carrusel-chico {
+    padding: 20px, 0, 0, 0;
+}
+
+.titulo {
+    text-align: center;
+    text-decoration: underline;
+    background-color: #9CD7D9;
+    padding: 10px;
+}
+
+.titulo h1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.titulo section {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between
+}
+
+.seccion-1 {
+    display: flex;
+}
+
+/* Medias Querys Mobile Last */
+
+@media(max-width:800px) {
+    .seccion-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin: 20px;
+    }
+
+    .carousel-inner img {
+        height: 250px;
+
+    }
+
+
+}
+
+@media(max-width:1400px) {
+    .seccion-monitor-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seccion-monitor-2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seccion-monitor-3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:600px) {
+    .titulo-monitor img {
+
+        height: 250px;
+
+    }
+}
+
+@media(max-width:600px) {
+    .img-contacto iframe{
+        width: 350px;
+        height: 300px;
+    }
+}
+
+/* Procesadores */
+.main-procesadores {
+    background-color: #9CD7D9;
+}
+
+.main-procesadores h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 30px;
+}
+
+.imagen-grande-1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.imagen-intel {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagen-intel img {
+    width: 150px;
+    margin: 10px;
+}
+
+.imagen-amd {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.imagen-amd img {
+    width: 150px;
+    margin: 10px;
+}
+/* Monitores */
+.seccion-monitor-1 {
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    margin: auto;
+
+}
+
+.seccion-monitor-2 {
+    display: flex;
+    padding: 30px;
+
+}
+
+.seccion-monitor-3 {
+    display: flex;
+    padding: 30px;
+
+}
+
+
+.titulo-monitor img {
+    width: 100%;
+
+}
+
+.seccion-monitores {
+    padding: 70px, 0px, 0px, 0px;
+}
+/* Ayuda */
+.titulo-ayuda h2 {
+    text-align: center;
+    padding: 40px;
+}
+
+.acordeon {
+    padding: 30px;
+}
+
+.ancho-acordeon {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.ancho-consultas {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Contacto */
+
+.formulario{
+    max-width: 800px;
+    margin: 20px;
+}
+.titulo-contacto h1{
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.form-control {
+    border: 1px solid #2967a5;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+
+}
+
+.datos{
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+}
+
+.datos h2{
+    text-decoration: underline;
+}
+
+.caja-datos{
+    border: 1px solid black;
+    max-width: 450px;;
+}
+.img-contacto{
+max-width: 800px;
+margin: auto;
+}
